@@ -1,0 +1,23 @@
+{
+  "keywords": [
+    "陈泽 迪士尼在逃公主",
+    "陈泽 迪士尼",
+    "陈泽 迪姐",
+    "迪士尼在逃公主 连麦",
+    "陈泽 迪士尼 pk"
+  ],
+  "min_likes": 1000,
+  "publish_time": "7",
+  "sort_type": "1",
+  "output_dir": "~/Movies/抖音切片",
+  "max_download_per_run": 3,
+  "scroll_rounds": 4,
+  "headless": false,
+  "require_both_names": false,
+  "download_timeout": 300,
+  "notes": {
+    "publish_time": "1=最近一天 7=最近一周 182=半年 0=不限",
+    "sort_type": "0=综合 1=最多点赞 2=最新发布",
+    "require_both_names": "true 则只保留标题同时含 陈泽 和 迪士尼 的视频，过滤更严格但可能漏"
+  }
+}

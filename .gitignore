@@ -1,0 +1,22 @@
+# ===== 敏感 / 运行时文件：切勿上传 =====
+# 抖音登录态（Chrome 持久化 profile，含 Cookie 会话）
+chrome-profile/
+# yt-dlp 用的抖音会话 cookie
+data/cookies.txt
+# 运行时生成的 SQLite 数据库（首次运行自动重建）
+data/seen.db
+# 日志
+data/logs/
+*.log
+
+# ===== 飞书 CLI 临时产物 =====
+_recs.ndjson
+_recs.manifest.json
+_*.json
+_verify*
+_verify.txt
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.env
